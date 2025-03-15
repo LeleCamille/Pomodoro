@@ -1,0 +1,55 @@
+#Mirtilo:hover{
+    color: #021024;
+    background-color: #5483B3;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 9px #052659;
+}
+
+#Mirtilo:active {
+    background-color: var(hover);
+    box-shadow: 0 5px #052659;
+    transform: translateY(4px);
+  }
+
+#Pêssego:hover{
+    color: #da4f72;
+    background-color: #ffb3c6;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 9px #da4f72;
+}
+
+#Pêssego:active {
+    background-color: var(hover);
+    box-shadow: 0 5px #da4f72;
+    transform: translateY(4px);
+}
+
+#Banana:hover{
+    color: #e05f00;
+    background-color: #fee169;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 9px #e05f00;
+}
+
+#Banana:active{
+    background-color: var(hover);
+    box-shadow: 0 5px #e05f00;
+    transform: translateY(4px);
+}
+
+#Tomate:hover{
+    color: #540102;
+    background-color: #cd0105;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 9px #540102;
+}
+
+#Tomate:active{
+    background-color: var(hover);
+    box-shadow: 0 5px #540102;
+    transform: translateY(4px);
+}

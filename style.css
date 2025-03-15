@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root{
+    --vermelho: #cd0105;
+    --hover: #b80000;
+    --rosa: #eb6464;
+    --bege: #efc2b3;
+    --vinho: #540102;
+}
+
+body{
+    background-color: var(--rosa);
+    font-family: "Pixelify Sans", sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.blueberry-mode {
+    --vermelho: #5483b3;
+    --hover: #154285;
+    --rosa: #7da0c4;
+    --bege: #c1e8ff;
+    --vinho: #021024;
+}
+
+body.peach-mode{
+    --vermelho: #ffb3c6;
+    --hover: #ff8fab;
+    --rosa: #ffc2d1;
+    --bege: #ffe5ec;
+    --vinho: #da4f72;
+    #Timer{
+        position: absolute;
+        top: 30%;
+        left: 50.2%;
+    }
+}
+
+body.banana-mode{
+    --vermelho: #ffc746;
+    --hover: #faad00;
+    --rosa: #fada5c;
+    --bege: #fcf0b0;
+    --vinho: #e05f00;
+    #Timer{
+        position: absolute;
+        top: 35%;
+        left: 49%;
+    }
+}
+
+body.tomato-mode{
+    --vermelho: #cd0105;
+    --hover: #b80000;
+    --rosa: #eb6464;
+    --bege: #efc2b3;
+    --vinho: #540102;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}   
+
+nav button{
+    position: relative;
+    top: 0px;
+    padding: 6px 10px; 
+    font-size: 16px;
+    margin: 5px 0;
+    width: 120px;
+    transition: .4s;
+}
+
+header{
+    text-align: center;
+    color: var(--bege);
+    text-shadow: -1px -1px 2px var(--vinho);
+}
+
+#Tomato{
+    position: relative;
+    top: -100px; /* Move a imagem 50px para cima */
+}
+
+h1 {
+    font-size: 80px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Timer{
+    position: absolute;
+    top: 35%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    text-shadow: -3px -3px 4px var(--vinho);
+}
+
+h3 {
+    position: relative;
+    top: -100px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--vinho);
+    margin-top: -50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+    top: -100px;
+    font-size: 24px;
+    font-family: "Pixelify Sans", sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--vinho);
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 9px var(--vinho);
+    transition: .3s;
+  }
+  
+button:hover {background-color: var(--hover)}
+  
+button:active {
+    background-color: var(hover);
+    box-shadow: 0 5px var(--vinho);
+    transform: translateY(4px);
+  }
